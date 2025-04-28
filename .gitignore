@@ -1,4 +1,10 @@
+# Ignoruj katalogi Pythona
 __pycache__/
 *.pyc
+
+# Ignoruj pliki związane z coverage
 .coverage
 htmlcov/
+
+# Ignoruj plik z linkiem do repozytorium
+Link do repozytorium github.txt
