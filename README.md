@@ -4,49 +4,17 @@ Repozytorium zawiera rozwiązania zadań laboratoryjnych z przedmiotu **Programo
 
 ## Struktura projektu
 
-- `zadanie_1/`  
-  Wprowadzenie do pracy z Pythonem i GitHubem:
-  - Organizacja środowiska programistycznego.
-  - Wyszukiwanie informacji w dokumentacji Pythona.
-  - Przykładowy program w Pythonie:
-    - Tworzenie i łączenie list (`zip()`).
-    - Wykorzystanie funkcji z modułu standardowego (`random.choice()`).
-    - Obsługa wyjątków (`IndexError`, `ZeroDivisionError`).
-    - Komentarze z linkami do dokumentacji.
-  - Publikacja kodu na GitHub.
+- `zadanie_1/` – wprowadzenie do pracy z Pythonem, dokumentacja, obsługa wyjątków, publikacja na GitHub.
+- `zadanie_2/` – testy jednostkowe w podejściu Test-Driven Development (TDD), pokrycie kodu, analiza testów.
+- `zadanie_3/` – budowa własnej biblioteki programistycznej w Pythonie.
 
-- `zadanie_2/`  
-  Test-Driven Development (TDD) i testy jednostkowe:
-  - Implementacja pięciu funkcji o różnych zastosowaniach:
-    - Walidacja e-maila.
-    - Obliczanie pola prostokąta.
-    - Filtrowanie liczb parzystych z listy.
-    - Konwersja formatu daty.
-    - Sprawdzanie, czy tekst jest palindromem.
-  - Testy jednostkowe napisane w podejściu Test-Driven Development (`unittest`).
-  - Testy uwzględniają typowe przypadki, przypadki brzegowe i obsługę błędów.
-  - Testy parametryzowane (`subTest`).
-  - Pokrycie kodu testami zmierzone za pomocą `coverage.py`: **100%**.
+Szczegółowe opisy i instrukcje dla każdego zadania znajdują się w odpowiednich folderach.
 
 ## Technologie
 
 - Python 3.13
 - Moduły standardowe: `random`, `unittest`
-- Narzędzia dodatkowe: `coverage.py`
-
-## Uruchamianie testów (Zadanie 2)
-
-Aby uruchomić testy jednostkowe i zmierzyć pokrycie kodu:
-
-```bash
-cd zadanie_2
-python -m coverage run --source=app -m unittest test_app.py
-python -m coverage report -m
-```
-
-## Pokrycie kodu
-
-- Testy jednostkowe zapewniają **100% pokrycia kodu** (`coverage.py report`).
+- Narzędzia dodatkowe: `coverage.py`, `setuptools`, `flake8`, `black`
 
 ## Autor
 
