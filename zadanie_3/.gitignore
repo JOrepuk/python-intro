@@ -1,0 +1,29 @@
+# Pliki i foldery Pythona
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Pliki środowiska
+.env
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Coverage i test cache
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+
+# Edytor/IDE
+.vscode/
+.idea/
+
+# Systemowe
+.DS_Store
+Thumbs.db
+
+# Pliki użytkownika
+Link do repozytorium github.txt
