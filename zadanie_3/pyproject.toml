@@ -1,0 +1,17 @@
+[project]
+name = "pyhelpers"
+version = "0.1.0"
+description = "Zestaw narzędzi pomocniczych w Pythonie: operacje matematyczne, tekstowe i na danych."
+authors = [
+    { name = "Jakub Orepuk" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+
+[project.urls]
+"Homepage" = "https://github.com/jorep/python-intro"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
